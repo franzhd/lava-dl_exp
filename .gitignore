@@ -2,4 +2,4 @@ data/*
 src/__pycache__/*
 nni_experiments/*/results/*
 !nni_experiments/*/results/.gitkeep
-
+!nni_experiments/dense_1/*
