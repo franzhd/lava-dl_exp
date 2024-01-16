@@ -1,0 +1,23 @@
+ 
+experimentName: dense_alif_1
+trialConcurrency: 1
+maxExperimentDuration: 24h
+maxTrialNumber: 100
+trainingService:
+  platform: local
+  useActiveGpu: True
+  gpuIndices: 0
+searchSpaceFile: ~/lava-dl_exp/nni_experiments/dense_alif_1/search_space/search_space2.json
+useAnnotation: false
+tuner: 
+    name: Anneal
+    classArgs:
+      optimize_mode: maximize
+
+
+trialCodeDirectory: ~/lava-dl_exp/nni_experiments/dense_alif_1/code/
+trialCommand: python3 experiment1.py --trial_path dense_alif_1/results
+experimentWorkingDirectory: ~/lava-dl_exp/nni_experiments/dense_alif_1/results/
+trialGpuNumber: 1
+
+

@@ -1,0 +1,5 @@
+data/*
+src/__pycache__/*
+nni_experiments/*/results/*
+!nni_experiments/*/results/.gitkeep
+

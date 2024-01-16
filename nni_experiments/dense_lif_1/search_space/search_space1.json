@@ -1,0 +1,10 @@
+
+{
+    "treshold": {"_type": "quniform", "_value": [0, 2, 0.005]},
+    "voltage_decay": {"_type": "quniform", "_value": [0,1, 0.05]},
+    "batch_size": {"_type": "quniform", "_value": [16,256, 16]},
+    "lr": {"_type": "quniform", "_value": [0.00001,0.001,0.000005]},
+    "graded_spike": {"_type": "choice", "_value": [0,1]}
+
+
+}

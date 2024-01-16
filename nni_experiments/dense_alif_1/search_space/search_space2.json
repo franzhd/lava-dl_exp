@@ -1,0 +1,12 @@
+
+{
+    "treshold": {"_type": "quniform", "_value": [0, 2, 0.02]},
+    "voltage_decay": {"_type": "quniform", "_value": [0,1, 0.05]},
+    "batch_size": {"_type": "quniform", "_value": [16,256, 16]},
+    "lr": {"_type": "quniform", "_value": [0.0001,0.001,0.0005]},
+    "threshold_step": {"_type": "quniform", "_value": [0, 2, 0.2]},
+    "threshold_decay": {"_type": "quniform", "_value": [0, 1, 0.05]},
+    "refractory_decay": {"_type": "quniform", "_value": [0, 1, 0.05]},
+    "max_rate": {"_type": "quniform", "_value": [0.1, 0.3, 0.025]}
+
+}
